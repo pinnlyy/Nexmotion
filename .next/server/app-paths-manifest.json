@@ -1,9 +1,0 @@
-{
-  "/player/page": "app/player/page.js",
-  "/api/detail/route": "app/api/detail/route.js",
-  "/api/media/upload/route": "app/api/media/upload/route.js",
-  "/prem/page": "app/prem/page.js",
-  "/media/page": "app/media/page.js",
-  "/effects/page": "app/effects/page.js",
-  "/api/slots/route": "app/api/slots/route.js"
-}
