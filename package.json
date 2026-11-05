@@ -1,0 +1,23 @@
+{
+  "name": "nexmotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexmotion — Alight Motion preset discovery, editing, preview and export platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "next": "^13.5.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  }
+}
