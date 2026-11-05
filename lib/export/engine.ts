@@ -162,7 +162,7 @@ export function getExportStatus(id: string): VideoExportStatus | null { return e
 export function estimateVideoExportBytes(
   width: number, height: number, fps: number, durSec: number, quality: 'low' | 'medium' | 'high'
 ) {
-  const { QUALITY_PRESETS } = require('./renderer/core') as any;
+  const { QUALITY_PRESETS } = require('../renderer/core') as any;
   const q = QUALITY_PRESETS[quality] || QUALITY_PRESETS.medium;
   const bitrate = q.bitrate * (width / 1280) * (height / 720);
   return Math.round((bitrate * durSec) / 8);
